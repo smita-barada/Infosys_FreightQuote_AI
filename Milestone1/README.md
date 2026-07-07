@@ -49,6 +49,7 @@ This page helps users reset their password by answering their pre‑set security
 
 🔒 **Password Recovery** – OTP via Email
 This page allows users to reset their password using a 6‑digit OTP sent to their registered email. After entering the OTP, they can set a new password securely.
+<img width="1583" height="716" alt="Screenshot 2026-07-07 145512" src="https://github.com/user-attachments/assets/914a06e6-ae9c-44b6-880f-5e5c58886442" />
 <img width="1912" height="910" alt="Screenshot 2026-07-07 135103" src="https://github.com/user-attachments/assets/6a7e81fb-edad-4653-b319-131b5b394710" />
 
 
