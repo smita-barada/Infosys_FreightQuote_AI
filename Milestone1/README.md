@@ -10,9 +10,12 @@ This milestone focuses on building the foundational User Authentication Module f
 - *OTP Verification:* Email-based OTP delivery using Gmail App Passwords for secondary verification.
 
 ## Tech Stack Used
-- *Frontend / UI:* Streamlit (Python framework)
-- *Backend / Security:* JWT (JSON Web Tokens), ngrok (for public URL creation), Gmail SMTP
-- *Environment Management:* Google Colab Secrets / Environment variables
+| Component       | Technology Used        |
+|-----------------|------------------------|
+| Frontend        | Streamlit + Plotly     |
+| Backend         | SQLite + Python (bcrypt, jwt) |
+| Authentication  | JWT, OTP via Email     |
+| Deployment      | Ngrok Tunnel           |
 
 ## How to Run the Notebook
 1. Open the provided Jupyter Notebook (.ipynb file) in Google Colab or your local machine.
@@ -22,19 +25,32 @@ This milestone focuses on building the foundational User Authentication Module f
 
 ## Screenshots
 (Screenshots of the functioning authentication pages will be added below)
-<img width="1508" height="737" alt="Screenshot 2026-07-06 140300" src="https://github.com/user-attachments/assets/2e83401d-24d6-44c6-a3ec-2701a92203ad" />
-<img width="1807" height="870" alt="Screenshot 2026-07-06 131345" src="https://github.com/user-attachments/assets/75f06e3c-d2d9-48d0-bf48-3f962b385025" />
-<img width="1897" height="897" alt="Screenshot 2026-07-06 131315" src="https://github.com/user-attachments/assets/421e494d-5b57-4617-8354-5f352d4d6ec8" />
-<img width="1896" height="887" alt="Screenshot 2026-07-06 131131" src="https://github.com/user-attachments/assets/da6178cf-65b5-4f13-afc5-2787bdf2ff55" />
-<img width="1902" height="897" alt="Screenshot 2026-07-06 130805" src="https://github.com/user-attachments/assets/22679e05-e6b9-4de3-bdac-5b1dac79eaf8" />
-<img width="1905" height="897" alt="Screenshot 2026-07-06 130734" src="https://github.com/user-attachments/assets/55f86cf3-c71c-4f21-9a85-6d30b6b69130" />
-<img width="1898" height="901" alt="Screenshot 2026-07-06 130516" src="https://github.com/user-attachments/assets/86971017-b34a-43ec-8410-0838f4032d43" />
-<img width="1902" height="905" alt="Screenshot 2026-07-06 130412" src="https://github.com/user-attachments/assets/be09e32b-450f-4ff8-ac39-45433c877e3e" />
-<img width="1896" height="887" alt="Screenshot 2026-07-06 130300" src="https://github.com/user-attachments/assets/b57e7f41-3220-4eca-9922-00c3e4b4326d" />
-<img width="1901" height="901" alt="Screenshot 2026-07-06 130238" src="https://github.com/user-attachments/assets/4602393e-d91d-48e1-a160-30d41869612b" />
-<img width="1901" height="892" alt="Screenshot 2026-07-06 130102" src="https://github.com/user-attachments/assets/b0258a23-100d-443c-8246-c63a09cfce04" />
-<img width="1907" height="911" alt="Screenshot 2026-07-06 125933" src="https://github.com/user-attachments/assets/56f1bdf8-f325-42f3-a2bc-c4aaf7796bb7" />
-<img width="1912" height="911" alt="Screenshot 2026-07-06 124829" src="https://github.com/user-attachments/assets/217480f4-d48b-4110-a190-ec01b7fc180a" />
-<img width="1887" height="902" alt="Screenshot 2026-07-06 123805" src="https://github.com/user-attachments/assets/36ae88df-d1ce-419a-bf74-65d23e66ff88" />
+
+# 🔑LOGIN PAGE : This page allows registered users to sign in using their email/username and password. It also provides quick links to create a new account or recover a forgotten password.
+<img width="1873" height="905" alt="Screenshot 2026-07-07 133544" src="https://github.com/user-attachments/assets/dec2bdda-83b7-41b3-955a-0effdd507de5" />
+<img width="1908" height="901" alt="Screenshot 2026-07-07 133644" src="https://github.com/user-attachments/assets/0da3efdd-28c2-490e-b19d-0bf686a4f772" />
+
+# 📝CREATE ACCOUNT PAGE:This page lets new users register by entering a unique username, email, password, and security question/answer. It ensures secure account creation before accessing the portal.
+<img width="1902" height="905" alt="Screenshot 2026-07-07 134536" src="https://github.com/user-attachments/assets/0daac99f-816c-484d-9e88-19f68e01d2f6" />
+
+# 📊DASHBOARD: After successful login, users are redirected to the dashboard. It displays system metrics such as documents indexed, queries run, efficiency percentage, and performance index. It also includes analytics tools for monitoring server load and other metrics.
+<img width="1908" height="912" alt="Screenshot 2026-07-07 134623" src="https://github.com/user-attachments/assets/d0e19b9c-fa6b-495f-80a0-2a8c7816cf7a" />
+
+# 🔒Forget Password – (Choose Recovery Method)
+
+***This page allows users to recover their account by selecting one of two options:***
+**Use Security Question** → Answer the question set during account creation.
+**Send Email OTP** → Receive a 6‑digit verification code in the registered email inbox.*****
+<img width="1893" height="908" alt="Screenshot 2026-07-07 134657" src="https://github.com/user-attachments/assets/383e47b8-7709-48d1-97f0-7939805d042b" />
+
+🔒 **Password Recovery** – Security Question
+This page helps users reset their password by answering their pre‑set security question. Once verified, they can create a new password to regain access.
+<img width="1902" height="912" alt="Screenshot 2026-07-07 134903" src="https://github.com/user-attachments/assets/bc2518a8-d383-457b-846a-615f3c411002" />
+
+🔒 **Password Recovery** – OTP via Email
+This page allows users to reset their password using a 6‑digit OTP sent to their registered email. After entering the OTP, they can set a new password securely.
+<img width="1912" height="910" alt="Screenshot 2026-07-07 135103" src="https://github.com/user-attachments/assets/6a7e81fb-edad-4653-b319-131b5b394710" />
+
+
 
 
