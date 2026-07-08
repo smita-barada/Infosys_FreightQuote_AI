@@ -57,23 +57,32 @@ The admin login page is separate from the normal user login. Admin credentials a
 7. Admin Dashboard
 The admin dashboard displays registered users in a table format. It only shows username and email details. Passwords are never displayed.
 
-Screenshots-
-1.Landing Page:
-<img width="1911" height="923" alt="Screenshot 2026-07-08 122551" src="https://github.com/user-attachments/assets/a0f9910b-bab9-4cf3-88bf-27629c65365e" />
-2.Login Page:
-<img width="1911" height="912" alt="Screenshot 2026-07-08 142821" src="https://github.com/user-attachments/assets/4cd3ed63-8994-41a2-9c5d-5fd182ccd905" />
-3.SignUp Page:
-<img width="1907" height="917" alt="Screenshot 2026-07-08 125105" src="https://github.com/user-attachments/assets/0dc5053b-1ec3-429c-b225-d96f896c824e" />
-4.Forget Password - Via Security Question:
-<img width="1912" height="917" alt="Screenshot 2026-07-08 125720" src="https://github.com/user-attachments/assets/4c8cf137-d108-4817-b1fc-fc8c1bcfcc8b" />
-5.Forget Password - Via OTP Verification:
-<img width="1908" height="910" alt="Screenshot 2026-07-08 135546" src="https://github.com/user-attachments/assets/470385f5-e482-4ab2-b127-b7acfd33184e" />
-6.User Dashboard:
-<img width="1913" height="907" alt="Screenshot 2026-07-08 132650" src="https://github.com/user-attachments/assets/a510ac0d-6261-4851-96f9-fb53035688c6" />
-7.Admin Login:
-<img width="1907" height="906" alt="Screenshot 2026-07-08 135807" src="https://github.com/user-attachments/assets/4449e604-f3a4-471b-ab8e-423637424090" />
-8.Admin Dashboard:
-<img width="1907" height="920" alt="Screenshot 2026-07-08 135845" src="https://github.com/user-attachments/assets/7cccfe2f-bc3e-4cb0-892b-eb0d3773cf9d" />
+Screenshots
+
+### 1. Landing Page
+<img width="1911" height="923" alt="Screenshot Landing page" src="https://github.com/user-attachments/assets/0075b9c8-4518-4cfb-b7d8-f997a4c18373" />
+
+
+### 2. Login Page
+<img width="1911" height="912" alt="Screenshot Login page" src="https://github.com/user-attachments/assets/537011b6-7a22-4635-a704-22d824d276f1" />)
+
+### 3. Signup Page
+<img width="1907" height="917" alt="Screenshot SignUp Page" src="https://github.com/user-attachments/assets/a41c1f55-365a-4e58-a85f-9e9e5b7d7d93" />
+
+### 4. Forgot Password - Security Question
+<img width="1912" height="917" alt="Screenshot Forget Password - Security Question" src="https://github.com/user-attachments/assets/9c44ac3a-f534-4f6d-9fde-0e644d49befc" />
+
+### 5. Forgot Password - OTP Verification
+<img width="1908" height="910" alt="Forget Password- OTP Verification" src="https://github.com/user-attachments/assets/ed73ff00-9dba-4c12-a87f-235435e1feed" />
+
+### 6. User Dashboard
+<img width="1913" height="907" alt="Screenshot User Dashboard" src="https://github.com/user-attachments/assets/1ce00696-fcc2-467d-82ab-b58883f9b76d" />
+
+### 7. Admin Login
+<img width="1907" height="906" alt="Screenshot Admin Login Page" src="https://github.com/user-attachments/assets/e9303512-7fdb-4a42-bc72-01b1f832e577" />
+
+### 8. Admin Dashboard
+<img width="1907" height="920" alt="Screenshot Admin Dashboard page" src="https://github.com/user-attachments/assets/a03522ac-2679-4a91-8d8b-6565776b6aaa" />
 
 Key Features:
 ~User signup and login
