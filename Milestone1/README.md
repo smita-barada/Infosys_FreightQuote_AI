@@ -57,6 +57,24 @@ The admin login page is separate from the normal user login. Admin credentials a
 7. Admin Dashboard
 The admin dashboard displays registered users in a table format. It only shows username and email details. Passwords are never displayed.
 
+Screenshots-
+1.Landing Page:
+<img width="1911" height="923" alt="Screenshot 2026-07-08 122551" src="https://github.com/user-attachments/assets/a0f9910b-bab9-4cf3-88bf-27629c65365e" />
+2.Login Page:
+<img width="1911" height="912" alt="Screenshot 2026-07-08 142821" src="https://github.com/user-attachments/assets/4cd3ed63-8994-41a2-9c5d-5fd182ccd905" />
+3.SignUp Page:
+<img width="1907" height="917" alt="Screenshot 2026-07-08 125105" src="https://github.com/user-attachments/assets/0dc5053b-1ec3-429c-b225-d96f896c824e" />
+4.Forget Password - Via Security Question:
+<img width="1912" height="917" alt="Screenshot 2026-07-08 125720" src="https://github.com/user-attachments/assets/4c8cf137-d108-4817-b1fc-fc8c1bcfcc8b" />
+5.Forget Password - Via OTP Verification:
+<img width="1908" height="910" alt="Screenshot 2026-07-08 135546" src="https://github.com/user-attachments/assets/470385f5-e482-4ab2-b127-b7acfd33184e" />
+6.User Dashboard:
+<img width="1913" height="907" alt="Screenshot 2026-07-08 132650" src="https://github.com/user-attachments/assets/a510ac0d-6261-4851-96f9-fb53035688c6" />
+7.Admin Login:
+<img width="1907" height="906" alt="Screenshot 2026-07-08 135807" src="https://github.com/user-attachments/assets/4449e604-f3a4-471b-ab8e-423637424090" />
+8.Admin Dashboard:
+<img width="1907" height="920" alt="Screenshot 2026-07-08 135845" src="https://github.com/user-attachments/assets/7cccfe2f-bc3e-4cb0-892b-eb0d3773cf9d" />
+
 Key Features:
 ~User signup and login
 ~JWT-based session handling
@@ -96,6 +114,7 @@ EMAIL_ADDRESS and EMAIL_PASSWORD are required only for real email OTP. If email 
 
 Final Output
 The final output is a working Streamlit authentication web application for the Intelligent Freight Quote Generation System. It includes user authentication, password recovery, JWT session handling, admin login, and admin dashboard features.
+
 
 
 
