@@ -1,56 +1,132 @@
-# Milestone 1 - User Authentication Module
+# Intelligent Freight Quote Generation System
 
-## Project Description
-This milestone focuses on building the foundational User Authentication Module for the Infosys FreightQuote AI application. It secures the application and ensures only authorized users can access the core freight quoting features. 
+## Milestone 1: User Authentication Module
 
-## Features Built
-- *User Signup & Login:* Secure account creation and authenticated access controls.
-- *Session Management:* Using JSON Web Tokens (JWT) to maintain user login states securely.
-- *Secure Setup Integration:* Configured backend security variables, environment paths, and ngrok for secure public tunneling.
-- *OTP Verification:* Email-based OTP delivery using Gmail App Passwords for secondary verification.
+This project is a secure authentication module for an **Intelligent Freight Quote Generation System**. It allows users to create an account, login securely, recover passwords, and access a user dashboard. It also includes a separate admin login and admin dashboard to view registered users.
 
-## Tech Stack Used
-| Component       | Technology Used        |
-|-----------------|------------------------|
-| Frontend        | Streamlit + Plotly     |
-| Backend         | SQLite + Python (bcrypt, jwt) |
-| Authentication  | JWT, OTP via Email     |
-| Deployment      | Ngrok Tunnel           |
+The application is built using **Streamlit** and runs in **Google Colab** with a public URL generated through **ngrok**.
 
-## How to Run the Notebook
-1. Open the provided Jupyter Notebook (.ipynb file) in Google Colab or your local machine.
-2. Ensure you add your required environment keys (ngrok tokens, Gmail App Password) to your Colab Secrets.
-3. Run all setup cells sequentially to launch the backend server.
-4. Access the public web interface using the generated ngrok URL link.
+---
 
-## Screenshots
-(Screenshots of the functioning authentication pages will be added below)
+## Tech Stack
 
-# 🔑LOGIN PAGE : This page allows registered users to sign in using their email/username and password. It also provides quick links to create a new account or recover a forgotten password.
-<img width="1873" height="905" alt="Screenshot 2026-07-07 133544" src="https://github.com/user-attachments/assets/dec2bdda-83b7-41b3-955a-0effdd507de5" />
-<img width="1908" height="901" alt="Screenshot 2026-07-07 133644" src="https://github.com/user-attachments/assets/0da3efdd-28c2-490e-b19d-0bf686a4f772" />
+- Python
+- Streamlit
+- SQLite
+- bcrypt
+- PyJWT
+- pyngrok
+- Gmail SMTP / Demo OTP
+- Google Colab
 
-# 📝CREATE ACCOUNT PAGE:This page lets new users register by entering a unique username, email, password, and security question/answer. It ensures secure account creation before accessing the portal.
-<img width="1902" height="905" alt="Screenshot 2026-07-07 134536" src="https://github.com/user-attachments/assets/0daac99f-816c-484d-9e88-19f68e01d2f6" />
+---
 
-# 📊DASHBOARD: After successful login, users are redirected to the dashboard. It displays system metrics such as documents indexed, queries run, efficiency percentage, and performance index. It also includes analytics tools for monitoring server load and other metrics.
-<img width="1908" height="912" alt="Screenshot 2026-07-07 134623" src="https://github.com/user-attachments/assets/d0e19b9c-fa6b-495f-80a0-2a8c7816cf7a" />
+## Project Structure
 
-# 🔒Forget Password – (Choose Recovery Method)
+```text
+Milestone1/
+│
+├── README.md
+├── Milestone1_Authentication_Module.ipynb
+└── screenshots/
+    ├── landing-page.png
+    ├── login-page.png
+    ├── signup-page.png
+    ├── forgot-password-security-question.png
+    ├── forgot-password-otp.png
+    ├── user-dashboard.png
+    ├── admin-login.png
+    └── admin-dashboard.png
 
-***This page allows users to recover their account by selecting one of two options:***
-**Use Security Question** → Answer the question set during account creation.
-**Send Email OTP** → Receive a 6‑digit verification code in the registered email inbox.*****
-<img width="1893" height="908" alt="Screenshot 2026-07-07 134657" src="https://github.com/user-attachments/assets/383e47b8-7709-48d1-97f0-7939805d042b" />
+Pages Included:
+1. Landing Page
+The landing page introduces the Intelligent Freight Quote Generation System. It contains a modern interface with login and signup navigation, project highlights, and freight-related visual design.
+2. Login Page
+The login page allows registered users to login using username/email and password. After successful login, a JWT session token is generated and the user is redirected to the dashboard.
+3. Signup Page
+The signup page allows new users to create an account. It includes username, email, password, confirm password, security question, and security answer fields. It also includes password strength validation.
+4. Forgot Password Page
+The forgot password page provides two recovery methods:
+Security Question method
+Email OTP method
+Users can reset their password using either method.
+5. User Dashboard
+The user dashboard displays the logged-in user's details, JWT session status, recent login information, and logout option.
+6. Admin Login
+The admin login page is separate from the normal user login. Admin credentials are defined in the code and are used to access the admin dashboard.
+7. Admin Dashboard
+The admin dashboard displays registered users in a table format. It only shows username and email details. Passwords are never displayed.
 
-🔒 **Password Recovery** – Security Question
-This page helps users reset their password by answering their pre‑set security question. Once verified, they can create a new password to regain access.
-<img width="1902" height="912" alt="Screenshot 2026-07-07 134903" src="https://github.com/user-attachments/assets/bc2518a8-d383-457b-846a-615f3c411002" />
+Key Features:
+~User signup and login
+~JWT-based session handling
+~Password hashing using bcrypt
+~Forgot password using security question
+~Forgot password using OTP
+~Password strength validation
+~Email format validation
+~Separate admin login
+~Admin dashboard for viewing users
+~Modern responsive UI
+~Dark mode and light mode
+~Public link using ngrok
 
-🔒 **Password Recovery** – OTP via Email
-This page allows users to reset their password using a 6‑digit OTP sent to their registered email. After entering the OTP, they can set a new password securely.
-<img width="1583" height="716" alt="Screenshot 2026-07-07 145512" src="https://github.com/user-attachments/assets/914a06e6-ae9c-44b6-880f-5e5c58886442" />
-<img width="1912" height="910" alt="Screenshot 2026-07-07 135103" src="https://github.com/user-attachments/assets/6a7e81fb-edad-4653-b319-131b5b394710" />
+Security Features:
+*Passwords are stored as hashed values using bcrypt.
+*Passwords are never displayed in the admin dashboard.
+*JWT is used to manage user sessions.
+*Forgot password supports secure recovery methods.
+*Admin access is separate from normal user access.
+*Sensitive values such as ngrok token, JWT secret, and email password are stored using Colab Secrets.
+
+Screenshots:
+Landing Page-
+<img width="1911" height="923" alt="Screenshot 2026-07-08 122551" src="https://github.com/user-attachments/assets/f0b73657-68ca-436d-b13e-da1f6a6f50ba" />
+
+Login Page-
+<img width="1911" height="912" alt="Screenshot 2026-07-08 142821" src="https://github.com/user-attachments/assets/4f80b667-d6fc-4752-a203-30d5eb6f8ee3" />
+
+SignUp Page-
+<img width="1907" height="917" alt="Screenshot 2026-07-08 125105" src="https://github.com/user-attachments/assets/2f81e479-9276-422d-b70b-922fdef9caf3" />
+
+Forgot Password - Security Question-
+<img width="1912" height="917" alt="Screenshot 2026-07-08 125720" src="https://github.com/user-attachments/assets/cbc77aae-f2d7-4855-bb66-d7dd52084a08" />
+
+Forgot Password - OTP-
+<img width="1908" height="910" alt="Screenshot 2026-07-08 135546" src="https://github.com/user-attachments/assets/63ca30c3-be96-4233-8d54-5768740494a1" />
+
+User Dashboard-
+<img width="1902" height="907" alt="Screenshot 2026-07-08 143118" src="https://github.com/user-attachments/assets/64836eb4-5eb0-4ea8-8e07-32f49a6c0b8e" />
+
+Admin Login-
+<img width="1907" height="906" alt="Screenshot 2026-07-08 135807" src="https://github.com/user-attachments/assets/d37788ca-b4dd-453b-bfe3-0e7eb258a28e" />
+
+Admin Dashboard-
+<img width="1907" height="920" alt="Screenshot 2026-07-08 135845" src="https://github.com/user-attachments/assets/f4ca631a-b3bb-42fe-a96f-33bb23c14a6b" />
+
+How to Run-
+Open the notebook in Google Colab.
+Install the required libraries.
+Add required secrets in Colab Secrets.
+Run all cells.
+Start the Streamlit app.
+Open the public ngrok URL generated by the notebook.
+
+Colab Secrets Used-
+NGROK_AUTHTOKEN
+JWT_SECRET
+EMAIL_ADDRESS
+EMAIL_PASSWORD
+EMAIL_ADDRESS and EMAIL_PASSWORD are required only for real email OTP. If email setup is not configured, demo OTP can be used for testing.
+
+Final Output
+The final output is a working Streamlit authentication web application for the Intelligent Freight Quote Generation System. It includes user authentication, password recovery, JWT session handling, admin login, and admin dashboard features.
+
+
+
+
+
+
 
 
 
