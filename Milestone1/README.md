@@ -57,32 +57,18 @@ The admin login page is separate from the normal user login. Admin credentials a
 7. Admin Dashboard
 The admin dashboard displays registered users in a table format. It only shows username and email details. Passwords are never displayed.
 
-Screenshots
+## Screenshots
+All screenshots of the web application are available in the **Picture** folder of this repository.
 
-### 1. Landing Page
-<img width="1911" height="923" alt="Screenshot Landing page" src="https://github.com/user-attachments/assets/0075b9c8-4518-4cfb-b7d8-f997a4c18373" />
-
-
-### 2. Login Page
-<img width="1911" height="912" alt="Screenshot Login page" src="https://github.com/user-attachments/assets/537011b6-7a22-4635-a704-22d824d276f1" />)
-
-### 3. Signup Page
-<img width="1907" height="917" alt="Screenshot SignUp Page" src="https://github.com/user-attachments/assets/a41c1f55-365a-4e58-a85f-9e9e5b7d7d93" />
-
-### 4. Forgot Password - Security Question
-<img width="1912" height="917" alt="Screenshot Forget Password - Security Question" src="https://github.com/user-attachments/assets/9c44ac3a-f534-4f6d-9fde-0e644d49befc" />
-
-### 5. Forgot Password - OTP Verification
-<img width="1908" height="910" alt="Forget Password- OTP Verification" src="https://github.com/user-attachments/assets/ed73ff00-9dba-4c12-a87f-235435e1feed" />
-
-### 6. User Dashboard
-<img width="1913" height="907" alt="Screenshot User Dashboard" src="https://github.com/user-attachments/assets/1ce00696-fcc2-467d-82ab-b58883f9b76d" />
-
-### 7. Admin Login
-<img width="1907" height="906" alt="Screenshot Admin Login Page" src="https://github.com/user-attachments/assets/e9303512-7fdb-4a42-bc72-01b1f832e577" />
-
-### 8. Admin Dashboard
-<img width="1907" height="920" alt="Screenshot Admin Dashboard page" src="https://github.com/user-attachments/assets/a03522ac-2679-4a91-8d8b-6565776b6aaa" />
+The folder contains screenshots of:
+* Landing Page
+* Login Page
+* Signup Page
+* Forgot Password (Security Question)
+* Forgot Password (OTP Verification)
+* User Dashboard
+* Admin Login
+* Admin Dashboard
 
 Key Features:
 ~User signup and login
@@ -119,7 +105,7 @@ NGROK_AUTHTOKEN
 JWT_SECRET
 EMAIL_ADDRESS
 EMAIL_PASSWORD
-EMAIL_ADDRESS and EMAIL_PASSWORD are required only for real email OTP. If email setup is not configured, demo OTP can be used for testing.
+**EMAIL_ADDRESS and EMAIL_PASSWORD are required only for real email OTP. If email setup is not configured, demo OTP can be used for testing.**
 
 Final Output
 The final output is a working Streamlit authentication web application for the Intelligent Freight Quote Generation System. It includes user authentication, password recovery, JWT session handling, admin login, and admin dashboard features.
