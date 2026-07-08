@@ -77,32 +77,7 @@ Security Features:
 *JWT is used to manage user sessions.
 *Forgot password supports secure recovery methods.
 *Admin access is separate from normal user access.
-*Sensitive values such as ngrok token, JWT secret, and email password are stored using Colab Secrets.
-
-Screenshots:
-Landing Page-
-<img width="1911" height="923" alt="Screenshot 2026-07-08 122551" src="https://github.com/user-attachments/assets/f0b73657-68ca-436d-b13e-da1f6a6f50ba" />
-
-Login Page-
-<img width="1911" height="912" alt="Screenshot 2026-07-08 142821" src="https://github.com/user-attachments/assets/4f80b667-d6fc-4752-a203-30d5eb6f8ee3" />
-
-SignUp Page-
-<img width="1907" height="917" alt="Screenshot 2026-07-08 125105" src="https://github.com/user-attachments/assets/2f81e479-9276-422d-b70b-922fdef9caf3" />
-
-Forgot Password - Security Question-
-<img width="1912" height="917" alt="Screenshot 2026-07-08 125720" src="https://github.com/user-attachments/assets/cbc77aae-f2d7-4855-bb66-d7dd52084a08" />
-
-Forgot Password - OTP-
-<img width="1908" height="910" alt="Screenshot 2026-07-08 135546" src="https://github.com/user-attachments/assets/63ca30c3-be96-4233-8d54-5768740494a1" />
-
-User Dashboard-
-<img width="1902" height="907" alt="Screenshot 2026-07-08 143118" src="https://github.com/user-attachments/assets/64836eb4-5eb0-4ea8-8e07-32f49a6c0b8e" />
-
-Admin Login-
-<img width="1907" height="906" alt="Screenshot 2026-07-08 135807" src="https://github.com/user-attachments/assets/d37788ca-b4dd-453b-bfe3-0e7eb258a28e" />
-
-Admin Dashboard-
-<img width="1907" height="920" alt="Screenshot 2026-07-08 135845" src="https://github.com/user-attachments/assets/f4ca631a-b3bb-42fe-a96f-33bb23c14a6b" />
+*Sensitive values such as ngrok token, JWT secret, and email password are stored using Colab Secrets
 
 How to Run-
 Open the notebook in Google Colab.
