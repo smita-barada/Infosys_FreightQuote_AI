@@ -143,24 +143,7 @@ EMAIL_ADDRESS
 EMAIL_PASSWORD
 *EMAIL_PASSWORD should be a Gmail App Password, not the normal Gmail password*
 
-## Screenshots
-1.Landing Page
-<img width="1901" height="917" alt="Screenshot 2026-07-09 161659" src="https://github.com/user-attachments/assets/3460b9a6-1f32-49d0-a91a-6c68039fe2cf" />
-2. User Login Page
-<img width="1906" height="912" alt="Screenshot 2026-07-09 154637" src="https://github.com/user-attachments/assets/f65db8ae-d2eb-44ef-9905-67f0adb9e00b" />
-3.SignUp Page
-<img width="1907" height="912" alt="Screenshot 2026-07-09 155029" src="https://github.com/user-attachments/assets/12f718f5-9171-450d-bee8-98c444ba628b" />
-4.Forgot Password - Security Question
-<img width="1908" height="912" alt="Screenshot 2026-07-09 161259" src="https://github.com/user-attachments/assets/e9e3cfc0-a043-4d43-9148-1b74c352a000" />
-5.Forgot Password - OTP Verification
-<img width="1902" height="912" alt="Screenshot 2026-07-09 161201" src="https://github.com/user-attachments/assets/990edfde-7ed0-4361-86fd-ae7a884641b2" />
-<img width="1517" height="728" alt="Screenshot 2026-07-09 161820" src="https://github.com/user-attachments/assets/49fdbdc7-550b-4c37-a0bb-b14d960cde1a" />
-6.User DSashboard
-<img width="1902" height="906" alt="Screenshot 2026-07-09 155128" src="https://github.com/user-attachments/assets/e14a2915-3c1c-44ac-8462-91e3c4c7866c" />
-7.Admin Login page
-<img width="1907" height="907" alt="Screenshot 2026-07-09 161529" src="https://github.com/user-attachments/assets/18eaa4c0-cab6-4acf-a2fb-00e46f35d5e6" />
-8.Admin Dashboard
-<img width="1911" height="895" alt="Screenshot 2026-07-09 161627" src="https://github.com/user-attachments/assets/0c9d1bfb-2c3e-421d-999f-45685220e634" />
+
 
 
 
