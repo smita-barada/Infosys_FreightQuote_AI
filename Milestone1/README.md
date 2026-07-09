@@ -1,18 +1,3 @@
-Infosys_FreightQuote_AI/
-└── Milestone1/
-    ├── README.md
-    ├── Milestone1_Authentication_Module.ipynb
-    └── screenshots/
-        ├── landing-page.png
-        ├── login-page.png
-        ├── signup-page.png
-        ├── forgot-password-security-question.png
-        ├── forgot-password-otp.png
-        ├── user-dashboard.png
-        ├── admin-login.png
-        └── admin-dashboard.png
-
-
 # Milestone 1: User Authentication Module
 
 ## Project Name
