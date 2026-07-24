@@ -1,0 +1,115 @@
+# Milestone 2 – FreightQuote AI
+
+## 📌 Overview
+Milestone 2 builds on Milestone 1 by adding:
+- Dynamic freight quote generation using ML models
+- Kaggle dataset integration
+- Secure credential handling with Colab Secrets
+- Localized Indian port coverage
+- Structured system architecture pipeline
+
+---
+
+## 🚀 Features
+- Automated freight prediction
+- Expanded dataset ingestion
+- Secure API key management
+- Visualization & reporting
+- End-to-end notebook workflow
+
+---
+
+## ⚙️ Tech Stack
+- **Python**  
+- **Google Colab**  
+- **Pandas, NumPy**  
+- **Scikit-learn**  
+- **Matplotlib, Seaborn**  
+- **Kaggle API**
+
+---
+
+## ▶️ How to Run
+1. Open `FreightQuote_AI_Milestone2.ipynb` in Google Colab.  
+2. Set up Kaggle API key (see instructions below).  
+3. Run cells sequentially to:
+   - Load datasets
+   - Train models
+   - Generate freight quotes
+   - Visualize results
+
+---
+
+## 🏗️ System Architecture
+| Phase | Component       | Description                          |
+|-------|-----------------|--------------------------------------|
+| 1     | Data Ingestion  | Import datasets from Kaggle          |
+| 2     | Preprocessing   | Clean, normalize, and structure data |
+| 3     | Model Training  | Apply ML algorithms                  |
+| 4     | Quote Generation| Generate localized freight quotes    |
+| 5     | Visualization   | Charts, tables, screenshots          |
+| 6     | Deployment      | Notebook execution in Colab          |
+
+---
+
+## 🇮🇳 Indian Port Coverage
+| Port Name     | Location     | Coverage                |
+|---------------|--------------|-------------------------|
+| Mumbai (JNPT) | Maharashtra  | Western India hub       |
+| Mundra        | Gujarat      | Largest private port    |
+| Chennai       | Tamil Nadu   | Southern India gateway  |
+| Cochin        | Kerala       | Strategic coastal port  |
+
+---
+
+## 🔑 Setup Instructions
+
+### Kaggle API
+1. Download `kaggle.json` from Kaggle → Account → API.  
+2. Upload in Colab:
+   ```python
+   from google.colab import files
+   files.upload()
+3.Move to secure location:
+  !mkdir -p ~/.kaggle
+  !cp kaggle.json ~/.kaggle/
+  !chmod 600 ~/.kaggle/kaggle.json
+4.Verify:
+  !kaggle datasets list
+
+##  Screenshots captured :
+Register page:
+<img width="1275" height="868" alt="Screenshot 2026-07-24 194952" src="https://github.com/user-attachments/assets/bd3d487a-80c3-4c65-9db9-52778911f16b" />
+
+Sign up page:
+<img width="1912" height="917" alt="Screenshot 2026-07-24 163256" src="https://github.com/user-attachments/assets/4eded46e-dd84-4e19-8c4d-2f963c16fbf1" />
+
+Dashboard pages:
+<img width="1911" height="917" alt="Screenshot 2026-07-24 163352" src="https://github.com/user-attachments/assets/0605064b-d842-4aea-b277-28e0c4da3693" />
+<img width="1913" height="916" alt="Screenshot 2026-07-24 163429" src="https://github.com/user-attachments/assets/7830d7a8-485c-4457-80db-e288c463246c" />
+<img width="1907" height="917" alt="Screenshot 2026-07-24 163531" src="https://github.com/user-attachments/assets/05606bed-067c-4cb8-9916-37d356b86d9e" />
+<img width="1913" height="917" alt="Screenshot 2026-07-24 163551" src="https://github.com/user-attachments/assets/9b9f5c11-2e5a-40fd-bacc-7a9134d59b9b" />
+<img width="1917" height="911" alt="Screenshot 2026-07-24 163638" src="https://github.com/user-attachments/assets/b0381451-7dbf-41d0-934a-17c31972967c" />
+<img width="1906" height="885" alt="Screenshot 2026-07-24 163811" src="https://github.com/user-attachments/assets/06a98434-a39b-49d3-a69b-3b5ebea547be" />
+<img width="1906" height="856" alt="Screenshot 2026-07-24 163906" src="https://github.com/user-attachments/assets/c6ed69b8-d5f7-421b-b585-0e4768e8a129" />
+<img width="1916" height="900" alt="Screenshot 2026-07-24 164120" src="https://github.com/user-attachments/assets/fa6a210a-d0c7-4ffa-a2e9-f02faf4c03cb" />
+
+Reset Password:
+<img width="1906" height="913" alt="Screenshot 2026-07-24 164536" src="https://github.com/user-attachments/assets/418b14d2-bad4-4a65-a718-462736166153" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
