@@ -1,1 +1,354 @@
+# 🚢 FreightQuote AI Platform – Milestone 2
+
+# 📖 Project Overview
+
+**FreightQuote AI Platform** is an AI-powered logistics and freight quotation system developed as part of the **Infosys Springboard Internship**.
+
+Milestone 2 extends the authentication system developed in Milestone 1 by integrating:
+
+- 🤖 Artificial Intelligence
+- 📊 Machine Learning
+- 🔒 Advanced Security Mechanisms
+- 🧠 AI Copilot
+- 👨‍💼 Admin Dashboard
+- 🚢 Freight Analytics
+
+The platform predicts freight costs, analyzes shipment delays, evaluates carrier compliance, and provides AI-assisted logistics recommendations through an interactive Streamlit dashboard.
+
+---
+
+# 📑 Table of Contents
+
+- Project Overview
+- Features
+- System Architecture
+- Technology Stack
+- Security Features
+- Machine Learning Agents
+- AI Copilot
+- Admin Dashboard
+- Indian Port Coverage
+- Project Structure
+- Installation
+- Google Colab Setup
+- Usage
+- Screenshots
+- Future Enhancements
+- License
+
+---
+
+# ✨ Features
+
+## 🔐 Authentication
+
+- User Registration
+- Secure Login
+- JWT Authentication
+- SQLite Database
+- bcrypt Password Hashing
+- Forgot Password
+- Gmail OTP Verification
+
+---
+
+## 🛡️ Advanced Security
+
+- Progressive Account Lockout
+- OTP Resend Cooldown
+- Password Strength Checker
+- Secure Session Management
+- Role-Based Access Control
+- Admin Authorization
+
+---
+
+## 🤖 Artificial Intelligence
+
+- Dynamic Freight Pricing
+- Route Delay Prediction
+- Carrier Compliance Analysis
+- AI Copilot
+- JSON Audit Report Generation
+
+---
+
+## 👨‍💼 Admin Dashboard
+
+- Add User
+- Delete User
+- Unlock Locked Users
+- View All Users
+- Assign Roles
+- Monitor ML Model Performance
+
+---
+
+# 🏗️ System Architecture
+
+```
+                   USER
+
+                     │
+
+        Login / Registration / OTP
+
+                     │
+
+          JWT Authentication Layer
+
+                     │
+
+          SQLite + bcrypt Database
+
+                     │
+
+        Security Verification Engine
+
+                     │
+
+    ┌──────────────┼──────────────┐
+
+    │              │              │
+
+Agent 1       Agent 2        Agent 3
+
+Pricing       Route Delay    Compliance
+
+    │              │              │
+
+    └──────────────┼──────────────┘
+
+                     │
+
+              AI Copilot (LLM)
+
+                     │
+
+        Executive Recommendations
+
+                     │
+
+            Admin Dashboard
+```
+
+---
+
+# 💻 Technology Stack
+
+| Category | Technologies |
+|-----------|--------------|
+| Programming Language | Python |
+| Frontend | Streamlit |
+| Backend | Python |
+| Database | SQLite |
+| Authentication | JWT, bcrypt |
+| Machine Learning | Scikit-learn |
+| Data Processing | Pandas, NumPy |
+| Visualization | Plotly, Matplotlib |
+| AI Model | Qwen2.5-3B-Instruct |
+| Deployment | Google Colab, Ngrok |
+| Model Storage | Joblib |
+
+---
+
+# 🔒 Security Features
+
+## Progressive Account Lockout
+
+| Failed Attempts | Action |
+|-----------------|--------|
+| 3 Attempts | Lock Account for 5 Minutes |
+| 4 Attempts | Lock Account for 15 Minutes |
+| 5 Attempts | Permanently Lock Account |
+
+Only the Administrator can unlock permanently locked users.
+
+---
+
+## OTP Resend Cooldown
+
+| Resend Attempt | Cooldown |
+|----------------|----------|
+| First | 60 Seconds |
+| Second | 180 Seconds |
+| Third | 300 Seconds |
+| Fourth & Above | 1 Hour |
+
+---
+
+## Password Strength Validation
+
+| Password Length | Strength |
+|-----------------|----------|
+| Less than 5 Characters | 🔴 Weak |
+| 5–9 Characters | 🟡 Average |
+| 10+ Characters | 🟢 Strong |
+
+---
+
+# 🤖 Machine Learning Agents
+
+## 🚚 Agent 1 – Dynamic Freight Pricing
+
+Predicts shipment cost based on logistics parameters.
+
+### Algorithms Compared
+
+- Random Forest Regressor
+- Gradient Boosting Regressor
+- Extra Trees Regressor
+- Ridge Regression
+- Decision Tree Regressor
+- AdaBoost Regressor
+- KNeighbors Regressor
+
+### Output
+
+- Predicted Freight Cost
+- R² Score
+- RMSE
+
+---
+
+## 🚛 Agent 2 – Route Delay Prediction
+
+Predicts shipment delays using classification models.
+
+### Algorithms Compared
+
+- Random Forest
+- Gradient Boosting
+- Logistic Regression
+- Support Vector Machine
+- Extra Trees
+- AdaBoost
+- KNeighbors
+
+### Output
+
+- Delay Prediction
+- ROC-AUC Score
+
+---
+
+## 📦 Agent 3 – Carrier Compliance Sentinel
+
+Evaluates carrier performance and shipment compliance.
+
+### Algorithms Compared
+
+- Random Forest
+- Gradient Boosting
+- Extra Trees
+- Logistic Regression
+- AdaBoost
+- Support Vector Machine
+
+### Output
+
+- Compliance Classification
+- ROC-AUC Score
+
+---
+
+# 🧠 AI Copilot
+
+The platform integrates the **Qwen2.5-3B-Instruct (4-bit Quantized)** Large Language Model.
+
+### Features
+
+- Freight Risk Analysis
+- Logistics Question Answering
+- Executive Recommendations
+- Shipping Strategy Suggestions
+- JSON Audit Report Generation
+
+If GPU is unavailable, the application automatically switches to a rule-based fallback mode.
+
+---
+
+# 👨‍💼 Admin Dashboard
+
+Administrator Features
+
+- 👤 View Users
+- ➕ Add User
+- ❌ Delete User
+- 🔓 Unlock Locked Accounts
+- 🛠️ Assign Roles
+- 📊 View ML Model Metrics
+- 📈 Monitor System Performance
+
+---
+
+# ⚓ Indian Port Coverage
+
+| Port | Location |
+|------|----------|
+| Jawaharlal Nehru Port (JNPT) | Maharashtra |
+| Mundra Port | Gujarat |
+| Chennai Port | Tamil Nadu |
+| Cochin Port | Kerala |
+
+---
+
+
+# 🚀 Installation
+
+## Clone the Repository
+
+```bash
+git clone <repository-url>
+```
+
+## Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+# ⚙️ Google Colab Setup
+
+Configure the following Colab Secrets:
+
+- JWT_SECRET_KEY
+- ADMIN_EMAIL_ID
+- ADMIN_PASSWORD
+- HF_TOKEN
+- NGROK_AUTHTOKEN
+- EMAIL_ID
+- EMAIL_PASSWORD
+- KAGGLE_USERNAME
+- KAGGLE_KEY
+
+Enable **T4 GPU** before running the notebook.
+
+---
+
+# ▶️ Usage
+
+1. Run all notebook cells sequentially.
+2. Launch the Streamlit application.
+3. Open the generated Ngrok HTTPS URL.
+4. Log in using administrator credentials.
+5. Explore the dashboard and AI modules.
+
+---
+
+# 📈 Model Performance
+
+The application automatically evaluates multiple machine learning algorithms and selects the best-performing model.
+
+### Metrics
+
+- R² Score
+- RMSE
+- ROC-AUC
+
+All metrics are displayed inside the **Admin Dashboard → ML Model Card**.
+
+---
 
