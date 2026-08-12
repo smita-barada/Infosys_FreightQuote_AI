@@ -2,11 +2,11 @@
 
 ## Project Name
 
-Intelligent Freight Quote Generation System
+Agentic AI for Maritime Freight Pricing and Route Optimization
 
 ## Overview
 
-This milestone focuses on building the user authentication module for the Intelligent Freight Quote Generation System. The purpose of this module is to provide secure user registration, login, password recovery, session handling, and admin access.
+This milestone focuses on building the user authentication module for the Agentic AI for Maritime Freight Pricing and Route Optimization. The purpose of this module is to provide secure user registration, login, password recovery, session handling, and admin access.
 
 The application is built using Streamlit and runs in Google Colab. A public web link is generated using ngrok so the application can be opened and tested in a browser.
 
