@@ -295,7 +295,7 @@ cd <YOUR-REPOSITORY>
 Open:
 
 ```text
-FreightQuote_AI_Milestone4_Professional_Colab.ipynb
+FreightQuote_AI_Final_Code_(1)_(1).ipynb
 ```
 
 using **Google Colab**.
